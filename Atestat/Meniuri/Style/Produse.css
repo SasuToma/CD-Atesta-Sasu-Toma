@@ -1,0 +1,548 @@
+body
+{
+    background-color: rgb(169, 181, 223);
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.Nav
+{
+    height: 115px;
+    background-color: rgb(120, 134, 193);
+    vertical-align: top;
+}
+
+.Companie
+{
+    margin-top: 0;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.Acasa
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Acasa:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Produse
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 125px;
+}
+.Produse:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Contact
+{
+    color: white;
+    font-family: Arial;
+    margin-left: 125px;
+    margin-right: 125px;
+    text-decoration: none;
+}
+.Contact:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s; 
+}
+
+.Despre-noi
+{
+    color: white;
+    font-family: Arial;
+    margin-right: 21%;
+    text-decoration: none;
+}
+.Despre-noi:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-1
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Iphone-13
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Iphone-13
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Iphone-13:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-2
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 35px;
+}
+.Iphone-14
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Iphone-14
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Iphone-14:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-3
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: right;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+.Iphone-15
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Iphone-15
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Iphone-15:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-4
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Iphone-16
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Iphone-16
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Iphone-16:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-5
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 35px;
+}
+.Samsung-S24
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Samsung-S24
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Samsung-S24:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-6
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: right;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+.Samsung-A56
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Samsung-A56
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Samsung-A56:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-7
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Samsung-A36
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Samsung-A36
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Samsung-A36:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-8
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 35px;
+}
+.Samsung-A26
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Samsung-A26
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Samsung-A26:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-9
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: right;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+.Samsung-M55
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Samsung-M55
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Samsung-M55:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-10
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Samsung-M35
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Samsung-M35
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Samsung-M35:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-11
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 35px;
+}
+.Huawei-P30
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Huawei-P30
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Huawei-P30:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+
+.Container-12
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: right;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+.Huawei-P40
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Huawei-P40
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Huawei-P40:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-13
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.Huawei-P50
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Huawei-P50
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Huawei-P50:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-14
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 35px;
+}
+.Huawei-P60
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Huawei-P60
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Huawei-P60:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Container-15
+{
+    height: 300px;
+    width: 430px;
+    background-color: rgb(120, 134, 193);
+    display: inline-flex;
+    justify-content: right;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+.Xiaomi-14
+{
+    width: 250px;
+    height: 300px;
+}
+.Link-Xiaomi-14
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Link-Xiaomi-14:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Atestat
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.Atestat:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.footer
+{
+    height: 115px;
+    background-color: rgb(120, 134, 193);
+    vertical-align: bottom;
+}

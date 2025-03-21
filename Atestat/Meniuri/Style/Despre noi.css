@@ -1,0 +1,123 @@
+body
+{
+    background-color: rgb(169, 181, 223);
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+    .Nav
+{
+    height: 115px;
+    background-color: rgb(120, 134, 193);
+    vertical-align: top;
+}
+
+.Companie
+{
+    margin-top: 0;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.Acasa
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.Acasa:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Produse
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 125px;
+}
+.Produse:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Contact
+{
+    color: white;
+    font-family: Arial;
+    margin-left: 125px;
+    margin-right: 125px;
+    text-decoration: none;
+}
+.Contact:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s; 
+}
+
+.Despre-noi
+{
+    color: white;
+    font-family: Arial;
+    margin-right: 21%;
+    text-decoration: none;
+}
+.Despre-noi:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+.Atestat
+{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.Atestat:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity, 0.15s;
+}
+
+.Informatii
+{
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+}
+
+.Imagine
+{
+    height: 600px;
+    width: 600px;
+    margin-bottom: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer
+{
+    height: 115px;
+    background-color: rgb(120, 134, 193);
+    vertical-align: bottom;
+}
