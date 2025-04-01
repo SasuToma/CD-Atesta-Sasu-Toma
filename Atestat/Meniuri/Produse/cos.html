@@ -1,10 +1,18 @@
-body
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body
 {
     background-color: rgb(169, 181, 223);
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
-    margin-bottom: 0;
 }
 
     .Nav
@@ -83,26 +91,44 @@ body
     opacity: 0.7;
     transition: opacity, 0.15s;
 }
+    .mijloc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cart-item{
+      background-color: white;
+    }
+    .text
+    {
+      color: white;
+    }
+  </style>
+</head>
 
-.Atestat
-{
-    color: white;
-    font-family: Arial;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-}
-.Atestat:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-    opacity: 0.7;
-    transition: opacity, 0.15s;
-}
+<body>
+  <nav class="Nav">
+    <h2 class="Companie">Case Craft</h2>
+    <a href="../Acasa.html" class="Acasa">Acasa</a>
+    <a href="../Produse.html" class="Produse">Produse</a>
+    <a href="../Contact.html" class="Contact">Contact</a>
+    <a href="../Despre noi.html" class="Despre-noi">Despre noi</a>
+ </nav>
 
-.footer
-{
-    height: 115px;
-    background-color: rgb(120, 134, 193);
-    margin-top:800px;
-}
+  <div class="mijloc">
+    <h1 class="text">Cos</h1>
+
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: 0 RON</p>
+
+    <div id="paypal-button-container"></div>
+
+  </div>
+
+
+  <script src="https://www.paypal.com/sdk/js?client-id=AUKnJwyhbYOLF8WN5SyqBcS2iNVaYgLMC1Zi03EWt-1aYqBltU6TiYJxzWfqMybmR2LAtAqT4sADnTDI&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -128,7 +128,7 @@ color: #666;
     color: #007BFF;
 }
 
-.buy-button 
+.cos-button
 {
     background-color: #007BFF;
     color: white;
@@ -141,12 +141,28 @@ color: #666;
     text-decoration: none;
     display: inline-block;
 }
-
-.buy-button:hover 
+.cos-button:hover 
 {
     background-color: #0056b3;
 }
 
+.buy-button
+{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.buy-button:hover 
+{
+    background-color: #0056b3;
+}
     </style>
 </head>
 <body>
@@ -171,9 +187,11 @@ color: #666;
                     <li>Material anti-alunecare pentru o prindere mai sigură</li>
                     <li>Design elegant și modern</li>
                 </ul>
-                <p class="price">Preț: 119 Lei</p>
-                <a href="pagina-comanda.html" class="buy-button">Cumpără acum</a>
+                <p class="price">Preț: 119 EUR</p>
+                <a href="cos.html"><button class="cos-button">Cos</button></a>
+                <button class="buy-button" onclick="addToCart({ id: 'husa-samsung-S24', name: 'Husa Samsung S24                ', price: 119 })">Adauga in cos</button>
             </div>
      </div>
+     <script src="./script.js"></script>
 </body>
 </html>
